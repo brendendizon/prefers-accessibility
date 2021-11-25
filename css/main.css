@@ -65,7 +65,14 @@ html {
 
 /**
  * =============
- * Write your “prefers” media queries here, between these two `stylelint` comments.
+ @@media (prefers-reduced-motion) {
+   .gear {
+   animation: none;
+  }
+
+}
+
+
  * Unfortunately, Markbot, is a little too old to understand them. :(
  * =============
  */
