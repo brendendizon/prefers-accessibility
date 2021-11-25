@@ -64,17 +64,24 @@ html {
 /* stylelint-disable media-feature-name-no-unknown */
 
 /**
- * =============
- @@media (prefers-reduced-motion) {
-   .gear {
-   animation: none;
-  }
+* =============
+@@media (prefers-reduced-motion) {
+.gear {
+animation: none;
+}
 
 }
 
+@@media (prefers-color-scheme: dark) {
+.banner {
+background-color: black;
+}
 
- * Unfortunately, Markbot, is a little too old to understand them. :(
- * =============
- */
+.banner h1 {
+color: #666;
+}
+
+}
+*/
 
 /* stylelint-enable */
